@@ -1,0 +1,43 @@
+.inventory_header{
+    width: 100%;
+    background: rgb(200, 200, 200);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.inventory_overview{
+    display: flex;
+    align-items: center;
+}
+
+.inventory_overview>div{
+    background: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 1px;
+}
+
+.inventory_details{
+    width: 100%;
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.details_single_type{
+    width: 10rem;
+    margin: 0;
+}
+
+.inventory_count{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
